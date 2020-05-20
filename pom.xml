@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>chronicle-values</artifactId>
-    <version>2.19.1-SNAPSHOT</version>
+    <version>2.19.30.ref-SNAPSHOT</version>
     <name>OpenHFT/Chronicle-Values</name>
     <description>Chronicle-Values</description>
     <packaging>bundle</packaging>
@@ -44,7 +44,7 @@
             <dependency>
                 <groupId>net.openhft</groupId>
                 <artifactId>chronicle-bom</artifactId>
-                <version>2.19-SNAPSHOT</version>
+                <version>2.19.ref-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -126,7 +126,7 @@
                         <exclude>net/openhft/chronicle/values/HeapByteable.java</exclude>
                     </sourceFileExcludes>
                     <failOnError>false</failOnError>
-                    <additionalparam>-Xdoclint:none</additionalparam>
+                    <additionalOptions>-Xdoclint:none</additionalOptions>
                 </configuration>
             </plugin>
 

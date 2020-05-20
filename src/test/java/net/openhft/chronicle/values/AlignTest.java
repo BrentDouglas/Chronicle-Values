@@ -15,7 +15,7 @@ public class AlignTest {
         value.bytesStore(bs, 0, size);
         value.addAtomicOrderQty(10.0);
         System.out.println(value);
-        bs.release();
+        bs.releaseLast();
     }
 
     interface DemoOrderVOInterface extends Byteable {
