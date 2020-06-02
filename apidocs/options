@@ -1,0 +1,27 @@
+-classpath
+'/home/teamcity/.m2/repository/net/openhft/chronicle-bytes/2.19.31-SNAPSHOT/chronicle-bytes-2.19.31-SNAPSHOT.jar:/home/teamcity/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/teamcity/.m2/repository/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar:/home/teamcity/.m2/repository/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar:/home/teamcity/.m2/repository/net/openhft/chronicle-core/2.19.32-SNAPSHOT/chronicle-core-2.19.32-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/teamcity/agents/chronicle2/work/4deb4798fb649a8f/src/main/java'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/teamcity/agents/chronicle2/work/4deb4798fb649a8f/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'OpenHFT/Chronicle-Values 2.19.31-SNAPSHOT API'
+-link
+'http://openhft.github.io/Chronicle-Bytes/apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/teamcity/agents/chronicle2/work/4deb4798fb649a8f/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'OpenHFT/Chronicle-Values 2.19.31-SNAPSHOT API'
